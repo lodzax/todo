@@ -37,8 +37,10 @@
 
                         </div>
 
-                        <div class="flex items-center gap-4">
+                        <div class="flex justify-between gap-4">
                             <x-primary-button>{{ __('Update Task') }}</x-primary-button>
+                            <x-primary-button> <a href="{{ route('todos.index') }}" class="bg-blue-500 text-white px-4 py-2 rounded-md">BACK</a>
+                            </x-primary-button>
                         </div>
                     </form>
                 </div>

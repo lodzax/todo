@@ -54,8 +54,13 @@
                             {{ $todo->updated_at }}
                         </p>
                     </div>
-                   <x-primary-button> <a href="{{ route('todos.index') }}" class="bg-blue-500 text-white px-4 py-2 rounded-md">BACK</a>
-                   </x-primary-button>
+                    <div class="flex justify-between">
+                        <x-primary-button> <a href="{{ route('todos.index') }}" class="bg-blue-500 text-white px-4 py-2 rounded-md">BACK</a>
+                        </x-primary-button>
+
+                        <x-primary-button> <a href="{{ route('todos.edit', $todo->id) }}" class="bg-blue-500 text-white px-4 py-2 rounded-md">Edit/Update</a>
+                        </x-primary-button>
+                    </div>
                 </div>
             </div>
         </div>
