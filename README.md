@@ -1,5 +1,8 @@
 # To Do Application
  A Simple To Do Web Application by Lloyd Magora
+ - Developed using Laravel Breeze
+ - Filament Admin Panel
+ - Backend running on MySQL
 
 # Using the Application
 Once setup, the application can be accessed using the link: http://localhost:8000
