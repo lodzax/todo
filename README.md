@@ -5,7 +5,9 @@
  - Backend running on MySQL
 
 # Using the Application
-Once setup, the application can be accessed using the link: http://localhost:8000
+Once setup, run npm install && npm run dev 
+
+The application can be accessed using the link: http://localhost:8000
 
 Click on the Register link to Access the registration form. Once registered, you will be able to login to the application using your own credentials
 
